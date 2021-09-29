@@ -29,7 +29,9 @@ namespace GameOfLife
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // panel1
@@ -41,6 +43,11 @@ namespace GameOfLife
             this.panel1.Size = new System.Drawing.Size(556, 549);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // GameUI
             // 
@@ -59,7 +66,7 @@ namespace GameOfLife
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
