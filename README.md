@@ -22,9 +22,9 @@ As an evaluation of this project, if I were to develop it again, I would include
 The window is resizable, so the ratio of the grid can be changed.
 
 ## Credits
-I watched the YouTube video [Coding Challenge #85: The Game of Life](https://www.youtube.com/watch?v=FWSR_7kZuYg) by [The Coding Train](https://www.youtube.com/@TheCodingTrain) to help me understand the logic used in the Game of Life.
+I watched the YouTube video [Coding Challenge #85: The Game of Life](https://www.youtube.com/watch?v=FWSR_7kZuYg) by [The Coding Train](https://www.youtube.com/@TheCodingTrain) to help me understand the logic used in Conway's Game of Life.
 
-To find out more about the patterns that can be created in Conway's Game of Life, there is more information of the [Conway's Game of Life Wikipedia page](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
+To find out about the rules of Conway's Game of Life and the patterns that can be created, please see the [Conway's Game of Life Wikipedia page](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life). I used this webpage when researching Conway's Game of Life.
 
 ## Technologies
 - C# version 8.0
