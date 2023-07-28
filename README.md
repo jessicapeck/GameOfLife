@@ -28,8 +28,8 @@ To find out about the rules of Conway's Game of Life and the patterns that can b
 
 ## Technologies
 - C# version 8.0
-- Microsoft Visual Studio version 16.11.13
-- .NET Framework version 4.8
+- Microsoft Visual Studio Community 2019 version 16.11.28
+- Microsoft .NET Framework version 4.8.09032
 
 ## License
 Open sourced under the [MIT license](LICENSE.md).
