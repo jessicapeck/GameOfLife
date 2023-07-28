@@ -17,7 +17,7 @@ You can manually change the number of rows and columns that are used within the 
 
 <img src="https://github.com/jessicapeck/GameOfLife/blob/main/images/rows-and-columns.png" alt="rows-and-columns" width=60%>
 
-As an evaluation of this project, if I were to develop it again, I would include a feature to allow the user to change the number of rows and columns on the form (within the running program window).
+As an evaluation of this project, if I were to develop it again, I would include a feature to allow the user to change the number of rows and columns on the form (within the running program window) as opposed to having to hard-code it.
 
 The window is resizable, so the ratio of the grid can be changed.
 
