@@ -13,11 +13,13 @@ namespace GameOfLife
 {
     public partial class GameUI : Form
     {
+        // change the number of rows and columns below...
+        private int num_rows = 100;
+        private int num_cols = 100;
+
         private SolidBrush sb_black = new SolidBrush(Color.Black);
         private SolidBrush sb_pink = new SolidBrush(Color.LightPink);
         private SolidBrush sb_white = new SolidBrush(Color.White);
-        private int num_rows = 200;
-        private int num_cols = 200;
         private int[,] current_states;
 
         public GameUI()
@@ -133,9 +135,9 @@ namespace GameOfLife
 
             Graphics targetGraphics = e.Graphics;
                 
-            for (int row_counter = 0; row_counter < num_cols; row_counter++)
+            for (int row_counter = 0; row_counter < num_rows; row_counter++)
             {
-                for (int col_counter = 0; col_counter < num_rows; col_counter++)
+                for (int col_counter = 0; col_counter < num_cols; col_counter++)
                 {
                     if (current_states[row_counter, col_counter] == 1)
                     {
@@ -152,9 +154,7 @@ namespace GameOfLife
 
                 }
                                         
-            }
-
-                                          
+            }                                          
                 
         }
 
