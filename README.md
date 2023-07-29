@@ -1,7 +1,7 @@
 # GameOfLife
 - [Introduction](#introduction)
-- [Credits](#credits)
 - [How to use](#how-to-use)
+- [Credits](#credits)
 - [Technologies](#technologies)
 - [License](#license)
 
